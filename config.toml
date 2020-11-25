@@ -119,7 +119,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "I am a dad, freelance software developer, and researcher. I work primarily in `R` and `Shiny` to create open source and hopefully useful packages or analyses. I am an owner/member of [Discindo](https://github.com/discindo). I used to be postdoctoral researcher ([Alverson lab](https://alversonlab.com)) working on diatom evolution."
+        summary = "I am a dad, software developer, and researcher. I work primarily in `R` and `Shiny` to create open source and hopefully useful packages or analyses. I am an owner/member of [Discindo](https://github.com/discindo). I used to be postdoctoral researcher ([Alverson lab](https://alversonlab.com)) working on diatom evolution."
         
     # Experiences section
     [params.experiences]
