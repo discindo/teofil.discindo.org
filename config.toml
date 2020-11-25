@@ -32,7 +32,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Teofil Nakov"
-        tagline = "Diatoms | Phylogenetics | Evolution | Genomics | R"
+        tagline = "R/Shiny developer and researcher"
         avatar = "teo-web.png"
 
     # Contact section
@@ -42,27 +42,9 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         #icon = "fa-envelope"
-        url = "mailto: tnakov@uark.edu"
-        title = "tnakov@uark.edu"
-
-        [[params.contact.list]]
-        class = "phone"
-        #icon = "fa-phone"
-        url = "tel:+1-479-575-4886"
-        title = "+1-479-575-4886"
-
-        [[params.contact.list]]
-        class = "website"
-        #icon = "ai-google-scholar"
-        url = "//https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
-        title = "Google Scholar"
-
-        [[params.contact.list]]
-        class = "researchgate"
-        #icon = "ai-researchgate"
-        url = "//https://www.researchgate.net/profile/Teofil_Nakov"
-        title = "ResearchGate"
-
+        url = "mailto: teofiln@gmail.com"
+        title = "teofiln@gmail.com"
+        
         [[params.contact.list]]
         class = "github"
         #icon = "fa-github"
@@ -75,6 +57,12 @@ disable404 = true
         url = "//twitter.com/teofilnakov"
         title = "Twitter"
 
+        [[params.contact.list]]
+        class = "website"
+        #icon = "ai-google-scholar"
+        url = "//https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
+        title = "Google Scholar"
+
     # Education section
     [params.education]
         enable = true
@@ -83,12 +71,12 @@ disable404 = true
         [[params.education.list]]
         degree = "PhD in Plant Biology"
         college = "University of Texas at Austin"
-        dates = "2007 - 2014"
+        dates = "2014"
 
         [[params.education.list]]
         degree = "BSc in Biochemistry and Physiology"
         college = "Sts Cyril & Methodius University Skopje"
-        dates = "2000 - 2005"
+        dates = "2005"
 
     # Languages section
     [params.language]
@@ -105,7 +93,7 @@ disable404 = true
 
         [[params.language.list]]
         language = "Spanish"
-        level = "No vergonzoso"
+        level = "Conversational"
 
 
     # Interests section
@@ -131,65 +119,73 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "I am a postdoctoral researcher in the [Alverson lab](http://alversonlab.com) at the [University of Arkansas](https://fulbright.uark.edu/departments/biology/). I study the evolution of marine and freshwater diatoms, a species-rich lineage important for global cycling of carbon and oxygen and famous for their intricately ornamented silica cell walls. My research leverages experimental, ecological, and genomic data---all grounded in a phylogenetic framework---to address trait evolution, diversification, and adaptation to changing environments."
-
+        summary = "I am a dad, freelance software developer, and researcher. I work primarily in `R` and `Shiny` to create free, open source and hopefully useful packages. Sometimes I work on less useful stuff, but for money. I used to be postodctoral researcher ([Alverson lab](http://alversonlab.com)) working on diatom evolution."
+        
     # Experiences section
     [params.experiences]
         enable = true
         icon = "fa-archive"
         title = "Experience"
-
+        
+        [[params.jobs.list]]
+        position = "R/Shiny programmer"
+        dates = "2008 - "
+        company = "Discindo"
+        details = "Started programming in `R` as a graduate student and developing `{shiny}` applications 2014."
+        
         [[params.jobs.list]]
         position = "Postdoctoral fellow"
-        dates = "2014 - Present"
+        dates = "2014 - 2020"
         company = "University of Arkansas Fayetteville, Arkansas, USA"
         details = "Research on diatom diversification, transcriptional response to salinity, local adaptation to salinity gradients, phylogenomics and genome evolution."
 
         [[params.jobs.list]]
         position = "Research/Teaching assistant"
-        dates = "2007 - 2014"
-        company = "The University of Texas at Austin, Texas, USA"
-        details = "TA, Genetics. RA, diatom phylogenetics projects. Field work in Guam, Sulawesi, Siberia."
-
-        [[params.jobs.list]]
-        position = "Research/Teaching assistant"
-        dates = "2005 - 2007"
-        company = "Sts Cyril & Methodius University Skopje, Macedonia"
-        details = "TA, Phycology and Limnology. RA, diatom taxonomy and ecology in ancient Lake Ohrid."
+        dates = "< 2014"
+        company = "The University of Texas at Austin, Texas, USA and Sts Cyril & Methodius University Skopje, Macedonia"
+        details = "Taught: Genetics, Limnology, Phycology. Field work in Ohrid, Prespa, Iowa, Guam, Sulawesi, Siberia."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-flask"
-        title = "Projects"
-        intro = ""
+        title = "Open source projects"
+        
+        [[params.projects.list]]
+        title = "{phynotate}"
+        url = "https://github.com/teofiln/phynotate"
+        tagline = "A low(ish)-level `R` library for creating customizible `{shiny}` applications to vizualize, customize, and annotate phylogenetic trees."
 
         [[params.projects.list]]
+        title = "{gghisse}"
+        url = "https://github.com/discindo/gghisse"
+        tagline = "An `R` package with modularized `{shiny}` application for post-processing results from species diversification modelling with [`{hisse}`](https://cran.r-project.org/web/packages/hisse/index.html)."
+
+        [[params.projects.list]]
+        title = "{PRIoritize_Dx}"
+        url = "https://github.com/IDinsight/prioritizedx"
+        tagline = "A `{shiny}` application in a `{golem}` `R` package for optimized use of Covid-19 testing resources in low and middle income countries."
+
+    # Projects section
+    [params.past]
+        enable = true
+        icon = "fa-flask"
+        title = "Past research projects"
+        
+        [[params.future.list]]
         title = "Functional traits, life history, and diversification"
         url = ""
         tagline = "A collection of studies ranging from the [ecology of primary chloroplast endosymbiosis](https://www.pnas.org/content/114/50/E10606.abstract) to [global phytoplankton diversity patterns](https://www.nature.com/articles/s41396-018-0221-y). I've also studied the evolution od diatom [cell size](https://aslopubs.onlinelibrary.wiley.com/doi/abs/10.4319/lo.2014.59.1.0079), [growth forms](https://www.nature.com/articles/ismej2014108), and [development](https://www.sciencedirect.com/science/article/pii/S1055790316301798) and diversification from a [life history](https://nph.onlinelibrary.wiley.com/doi/full/10.1111/nph.15137) and [ecological](https://www.biorxiv.org/content/10.1101/406165v1.abstract) perspectives."
 
-        [[params.projects.list]]
+        [[params.future.list]]
         title = "Phylogenomics and genome evolution"
         url = ""
         tagline = "An ongoing project investigating [historical polyploidy](https://bsapubs.onlinelibrary.wiley.com/doi/full/10.1002/ajb2.1056) and [genome evolution](https://link.springer.com/article/10.1007/s00294-016-0652-9) in diatoms using whole [genome and transcriptome](https://diatom.shinyapps.io/TranscribedDiatoms/) scale data."
 
-        [[params.projects.list]]
+        [[params.future.list]]
         title = "Acclimation and adaptation to changing salinity"
         url = ""
         tagline = "One aspect of this project is on the relationships between [growth reaction norms at different salinities](https://diatom.shinyapps.io/Diatoms_and_Salinity/) and gene expression, while another uses whole-genome resequencing to understand local adaptation in the [Baltic Sea salinity gradient](https://diatom.shinyapps.io/baltic-sea-gradient-maps/)."
-
-        [[params.projects.list]]
-        title = "R and Shiny"
-        url = ""
-        tagline = "I work primarily in R and enjoy making interactive Shiny web applications [related to my research](https://diatom.shinyapps.io/InteractiveDiatomPhylogeny/) or useful for experiments and data management and visualization in the lab."
-
-    # Future research section
-    [params.future]
-        enable = true
-        icon = "fa-flask"
-        title = "Future research"
-        intro = ""
 
     # Skills section
     [params.skills]
