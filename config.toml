@@ -119,7 +119,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "I am a dad, freelance software developer, and researcher. I work primarily in `R` and `Shiny` to create open source and hopefully useful packages or analyses. I am a owner/member of [Discindo](www.github.comb/discindo). I used to be postdoctoral researcher ([Alverson lab](http://alversonlab.com)) working on diatom evolution."
+        summary = "I am a dad, freelance software developer, and researcher. I work primarily in `R` and `Shiny` to create open source and hopefully useful packages or analyses. I am an owner/member of [Discindo](https://github.com/discindo). I used to be postdoctoral researcher ([Alverson lab](https://alversonlab.com)) working on diatom evolution."
         
     # Experiences section
     [params.experiences]
@@ -149,22 +149,33 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-flask"
-        title = "Open source projects"
+        title = "Open source projects that I've started or contribute to"
         
         [[params.projects.list]]
-        title = "{phynotate}"
+        title = "{phynotate} (lead)"
         url = "https://github.com/teofiln/phynotate"
         tagline = "A low(ish)-level `R` library for creating customizible `{shiny}` applications to vizualize, customize, and annotate phylogenetic trees."
 
         [[params.projects.list]]
-        title = "{gghisse}"
+        title = "{gghisse} (lead)"
         url = "https://github.com/discindo/gghisse"
         tagline = "An `R` package with modularized `{shiny}` application for post-processing results from species diversification modelling with [`{hisse}`](https://cran.r-project.org/web/packages/hisse/index.html)."
 
         [[params.projects.list]]
-        title = "{PRIoritize_Dx}"
+        title = "{PRIoritize_Dx} (lead)"
         url = "https://github.com/IDinsight/prioritizedx"
         tagline = "A `{shiny}` application in a `{golem}` `R` package for optimized use of Covid-19 testing resources in low and middle income countries."
+        
+        [[params.projects.list]]
+        title = "{newscatcheR} (contributor)"
+        url = "https://github.com/discindo/newscatcheR"
+        tagline = "Programmatically collect normalized news from (almost) any website using `R`"
+        
+        [[params.projects.list]]
+        title = "{tinselR} (contributor)"
+        url = "https://github.com/jennahamlin/tinselR"
+        tagline = "Graphical viewer of Newick-formatted phylogenetic trees and as an application for producing publication-ready figures"
+        
 
     # Projects section
     [params.past]
