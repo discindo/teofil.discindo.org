@@ -149,7 +149,7 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-flask"
-        title = "Open source projects that I've started or contribute to"
+        title = "Open source projects that I lead or contribute to"
         
         [[params.projects.list]]
         title = "{phynotate} (lead)"
@@ -162,7 +162,7 @@ disable404 = true
         tagline = "An `R` package with modularized `{shiny}` application for post-processing results from species diversification modelling with [`{hisse}`](https://cran.r-project.org/web/packages/hisse/index.html)."
 
         [[params.projects.list]]
-        title = "{PRIoritize_Dx} (lead)"
+        title = "{PRIoritize_Dx} (lead R/Shiny development)"
         url = "https://github.com/IDinsight/prioritizedx"
         tagline = "A `{shiny}` application in a `{golem}` `R` package for optimized use of Covid-19 testing resources in low and middle income countries."
         
@@ -176,6 +176,10 @@ disable404 = true
         url = "https://github.com/jennahamlin/tinselR"
         tagline = "Graphical viewer of Newick-formatted phylogenetic trees and as an application for producing publication-ready figures"
         
+        [[params.projects.list]]
+        title = "Reproducible research guide (in Macedonian) (lead)"
+        url = "https://github.com/discindo/booklet"
+        tagline = "A guide for best practices in reproducible data analysis. Available: https://discindo.github.io/booklet/"
 
     # Projects section
     [params.past]
