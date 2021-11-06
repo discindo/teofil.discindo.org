@@ -60,7 +60,7 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         #icon = "ai-google-scholar"
-        url = "//https://scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
+        url = "//scholar.google.com/citations?user=2lKX40AAAAAJ&hl=en"
         title = "Google Scholar"
 
     # Education section
