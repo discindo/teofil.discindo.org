@@ -32,7 +32,7 @@ disable404 = true
     # Profile section
     [params.profile]
         name = "Teofil Nakov"
-        tagline = "R/Shiny developer and researcher"
+        tagline = "R/Shiny developer | Data Scientist | Bioinformatician "
         avatar = "teo-web.png"
 
     # Contact section
@@ -52,10 +52,10 @@ disable404 = true
         title = "GitHub"
 
         [[params.contact.list]]
-        class = "twitter"
+        class = "linkedin"
         #icon = "fa-twitter"
-        url = "//twitter.com/teofilnakov"
-        title = "Twitter"
+        url = "//https://www.linkedin.com/in/teofil-nakov-ph-d-874a04202/"
+        title = "LinkedIn"
 
         [[params.contact.list]]
         class = "website"
@@ -95,20 +95,19 @@ disable404 = true
         language = "Spanish"
         level = "Conversational"
 
-
     # Interests section
     [params.interests]
-        enable = false
+        enable = true
         title = "Interests"
 
         [[params.interests.list]]
         interest = "Football (with the feet)"
 
         [[params.interests.list]]
-        interest = "Guitar"
+        interest = "Chess (Liches rapid rating 1800)"
 
         [[params.interests.list]]
-        interest = "Chess"
+        interest = "Baking (pizza, bread)"
 
 # Main body sections
 
@@ -128,10 +127,10 @@ disable404 = true
         title = "Experience"
         
         [[params.jobs.list]]
-        position = "R/Shiny programmer"
-        dates = "2008 - "
-        company = "Independent consultant"
-        details = "Started programming in `R` as a graduate student and developing `{shiny}` applications 2014."
+        position = "R/Shiny developer"
+        dates = "2020 - "
+        company = "Independent consultant or part-time employee"
+        details = "Developed custom R/Shiny solutions for over 20 clients primarily on Upwork."
         
         [[params.jobs.list]]
         position = "Postdoctoral fellow"
@@ -149,22 +148,12 @@ disable404 = true
     [params.projects]
         enable = true
         icon = "fa-flask"
-        title = "Open source projects that I lead or contribute to"
+        title = "Open source projects "
         
         [[params.projects.list]]
-        title = "{phynotate} (lead)"
-        url = "https://github.com/teofiln/phynotate"
-        tagline = "A low(ish)-level `R` library for creating customizible `{shiny}` applications to vizualize, customize, and annotate phylogenetic trees."
-
-        [[params.projects.list]]
-        title = "{gghisse} (lead)"
-        url = "https://github.com/discindo/gghisse"
-        tagline = "An `R` package with modularized `{shiny}` application for post-processing results from species diversification modelling with [`{hisse}`](https://cran.r-project.org/web/packages/hisse/index.html)."
-
-        [[params.projects.list]]
-        title = "{PRIoritize_Dx} (lead R/Shiny development)"
-        url = "https://github.com/IDinsight/prioritizedx"
-        tagline = "A `{shiny}` application in a `{golem}` `R` package for optimized use of Covid-19 testing resources in low and middle income countries."
+        title = "{r2lambda} (lead)"
+        url = "https://github.com/discindo/r2lambda"
+        tagline = "R package to get started and become productive with AWS Lambda from R"
         
         [[params.projects.list]]
         title = "{newscatcheR} (contributor)"
@@ -180,6 +169,16 @@ disable404 = true
         title = "Reproducible research guide (in Macedonian) (lead)"
         url = "https://github.com/discindo/booklet"
         tagline = "A guide for best practices in reproducible data analysis. Available: https://discindo.github.io/booklet/"
+        
+        [[params.projects.list]]
+        title = "{phynotate} (lead)"
+        url = "https://github.com/teofiln/phynotate"
+        tagline = "A low(ish)-level `R` library for creating customizible `{shiny}` applications to visualize, customize, and annotate phylogenetic trees."
+
+        [[params.projects.list]]
+        title = "{gghisse} (lead)"
+        url = "https://github.com/discindo/gghisse"
+        tagline = "An `R` package and `{shiny}` application for post-processing results from species diversification modelling with [`{hisse}`](https://cran.r-project.org/web/packages/hisse/index.html)."
 
     # Projects section
     [params.past]
