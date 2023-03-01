@@ -119,7 +119,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "Interested in using data to inform our actions towards a sustainable future for our planet and the life on it. I work primarily in `R` and `Shiny` to create open source and hopefully useful packages or analyses. I am an owner/member of [Discindo](https://github.com/discindo). I studied diatom evolution ([Alverson lab](https://alversonlab.com)). Get in touch if you have a project involving conservation, medicine, or development, and you might need someone skillful in research, stats, and software development." 
+        summary = "Researcher, software developer, and bioinformatician with a PhD in Plant biology from UT Austin and 6+ year of postdoctoral research experience. Programming in R for 12+ years and Shiny 8+ years. Advanced, independent, and rapid developer of Shiny applications, leveraging the Golem framework and experienced in developing customs user interfaces and complex server logic with deeply nested module structure. Flexible and adaptable attitude, welcoming steep learning curves with reasonable time frames." 
         
     # Experiences section
     [params.experiences]
@@ -130,7 +130,7 @@ disable404 = true
         [[params.jobs.list]]
         position = "R/Shiny programmer"
         dates = "2008 - "
-        company = "Discindo"
+        company = "Independent consultant"
         details = "Started programming in `R` as a graduate student and developing `{shiny}` applications 2014."
         
         [[params.jobs.list]]
