@@ -118,7 +118,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "About"
-        summary = "Researcher, software developer, and bioinformatician with a PhD in Plant biology from UT Austin and 6+ year of postdoctoral research experience. Programming in R for 12+ years and Shiny 8+ years. Advanced, independent, and rapid developer of Shiny applications, leveraging the Golem framework and experienced in developing customs user interfaces and complex server logic with deeply nested module structure. Flexible and adaptable attitude, welcoming steep learning curves with reasonable time frames." 
+        summary = "Researcher, software developer, and bioinformatician with a PhD in Plant biology from UT Austin and 6+ year of postdoctoral research experience. Programming in R for 12+ years and Shiny 8+ years. Advanced, independent, and rapid developer of Shiny applications, leveraging the Golem or Rhino framework and experienced in developing custom user interfaces and complex server logic. Flexible and adaptable. Welcoming steep learning curves with reasonable time frames." 
         
     # Experiences section
     [params.experiences]
